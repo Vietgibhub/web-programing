@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Password Validator</title>
+</head>
+<body>
+    <form>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <p></p>
+        <label for="cnfrm-password">Confirm Password</label>
+        <input type="password" id="cnfrm-password">
+        <p id="message"></p>
+        <input type="button" onclick="check()" value="Validate"/>
+    </form>
+    <script>
+        function check(){
+    let password = document.getElementById("password").value;
+    let cnfrmPassword = document.getElementById("cnfrm-password").value;
+    let message = document.getElementById("message");
+
+    if(password.length >= 8){
+        if(password == cnfrmPassword){
+            message.textContent = "Passwords match";
+        }
+        else{
+            message.textContent = "Passwords don't match";
+        }
+    }
+    else{
+        message.textContent = "The passwords are not at least 8 characters long";
+    }
+}
+    </script>
+</body>
+</html>

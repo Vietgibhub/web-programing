@@ -1,0 +1,24 @@
+body{
+    background-color: #f9f4f4;
+    color: #ffffff;
+}
+.webpage{
+    background-color: #c87777;
+    color: #ffffff;
+    
+}
+.hyperlink{
+    font-size: 30px;
+}
+.picture{
+    width: 150px;
+    height: 150px;
+}
+.para{
+    font-size: 20px;
+    color: #050404;
+}
+.embeded-video{
+    width: 400px;
+    height: 300px;
+}

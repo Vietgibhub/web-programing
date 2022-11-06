@@ -1,0 +1,16 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+.slider{
+    background-color: #000000;
+    color: #ffffff;
+}
+.slide{
+    width: 500px;
+    height: 500px;;
+}
+.img{
+    width: 500px;
+    height: 500px;
+}

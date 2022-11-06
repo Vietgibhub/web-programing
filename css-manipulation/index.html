@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS Manipulation</title>
+        <style>
+            p.solid {border-style: solid;}
+        </style>
+	</head>
+	<body>
+        <form>
+            <label for="background">Background Color</label>
+            <input type="text" id="background">
+            <label for="border">Border Color</label>
+            <input type="text" id="border">
+            <label for="width">Width</label>
+            <input type="text" id="width">
+            <input type="button" onclick="change()" value="Change interface"/>
+        </form>
+            <p id = "para" class = "solid"> 
+                Let choose some background and border!<br>
+                Let choose some background and border!<br>
+                Let choose some background and border!<br>
+                Let choose some background and border!<br>
+                Let choose some background and border!<br>
+                Let choose some background and border!<br>
+                Let choose some background and border!<br>
+            </p>
+        <script>
+            function change(){
+                document.getElementById("para").style.backgroundColor = document.getElementById("background").value;
+                document.getElementById("para").style.borderColor = document.getElementById("border").value;
+                document.getElementById("para").style.borderWidth = document.getElementById("width").value + "mm";
+            }
+        </script>
+    </body>
+</html>
