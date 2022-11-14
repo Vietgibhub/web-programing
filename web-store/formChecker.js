@@ -22,4 +22,5 @@ var check = function() {
 }
 //all input is required in frontend.html so it can't be blank
 //username and password are set in email and password types already
+//free shipping is also set autimatically checked in frontend.html
 //this part is to constraint for negative amount of items input
