@@ -1,0 +1,40 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form td{
+    width: 120px;
+}
+
+input{
+    width: 120px;
+}
+
+.button{
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: #eeebe7;
+    height: 30px;
+    color: rgb(15, 14, 14)
+}
+
+.button:hover{
+    background-color: #22e650;
+}
+
+
+#receipt {
+    width: 600px;
+    background-color: #0db7ef;
+    border-color: rgb(19, 18, 18);
+    border-style: dashed;
+    border-collapse: collapse;
+}
+
+ #receipt td{
+    width: 600px;
+    background-color: #10aee3;
+    border-color: rgb(26, 25, 25);
+    border-style: solid;
+}
