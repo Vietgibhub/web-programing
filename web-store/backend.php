@@ -30,21 +30,21 @@
         echo "</tr>";
 
         echo "<tr>";
-            echo "<th> Shirt </th>";
+            echo "<td> Shirt </td>";
             echo "<td>" . $shirt . "</td>";
             echo "<td> $10.00 </td>";
             echo "<td> $" . $shirtcost . "</td>";
         echo "</tr>";
 
         echo "<tr>";
-            echo "<th> Hat </th>";
+            echo "<td> Hat </td>";
             echo "<td>" . $hat . "</td>";
             echo "<td> $5.00 </td>";
             echo "<td> $" . $hatcost . "</td>";
         echo "</tr>";
 
         echo "<tr>";
-            echo "<th> Shipping </th>";
+            echo "<td> Shipping </td>";
             echo "<td>" .$shipping.  "</td>";
             if ($shipping == "Overnight"){
                 echo "<td> $50.00 </td>";
